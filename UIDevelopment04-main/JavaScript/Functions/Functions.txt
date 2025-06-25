@@ -1,0 +1,34 @@
+//function without arguments
+//function with arguments
+//function using return keyword
+//Types of Variables
+//Global  //Local
+//passing default values in function
+//passing key and value in function
+//function calling
+//assigning a function to a variable
+//argumens keyword
+//pure functions
+//impure function
+//Arrow functions 
+//Rest Operator
+//Spread Operator 
+//Higher order functions
+//Callback function
+//Immediately Invoked function expression IIFE
+
+//objects
+//this
+//adding properties and methods to an object 
+//Accessing properties from an object
+
+//call 
+//apply 
+//bind
+
+//closures
+//String Literals and Object Literals
+//object literals adding the properties and updating the properties and delete the properties
+//iterables 
+//Nested Object 
+

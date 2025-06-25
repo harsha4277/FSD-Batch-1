@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 2px solid blue;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+
+        div:first-child{
+            /* moving x axis */
+            /* transform: translate(100px); */
+
+            /* transform: translate(100px, 200px); */
+
+            transform: translate(0px,300px);
+        }
+
+        /* for zooming we use scale(x,y) */
+        /* scale(width, height)  */
+        div:nth-child(2):hover{
+            transform: scale(1.01, 2.9);
+        }
+
+        /* if element want to move x and y axis in degrees */
+        div:nth-child(3):hover{
+            transform: skew(2deg, 15deg);
+        }
+
+        /* rotate the element in 360 degree angle */
+        /* positive degrees rotate clockwise direction */
+        /* negative degrees rotate anti-clockwise direction */
+        div:last-child{
+            transform: rotate(90deg);
+            margin-top: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div>One</div>
+    <div>Two</div>
+    <div>Three</div>
+    <div>Four</div>
+</body>
+</html>

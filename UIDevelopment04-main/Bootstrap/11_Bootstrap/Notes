@@ -1,0 +1,35 @@
+Bootstrap is a front-end framework which was developed by twitter
+Bootstrap helpus is faster and easier web developed
+
+we can design website layout using three Bootstrap classes
+1.container 
+2.row (always placed in a container only)
+3.col
+
+container class breakpoins:
+Extra Large >= 1200px
+Large >=992px
+Medium >- 768px
+Small >= 576px
+Extra Small < 576px 
+
+col class breakpoins:
+Extra Large: col-x 
+Large: col-lg 
+Medium: col-md 
+Small: col-sm 
+Extra Small: No Class 
+
+Bootstrap Web Page :
+jquery.js 
+popper.js 
+
+styles:
+font-awesome.js
+bootstrap.js
+
+Grid System can be used while creating the layout of page web pages in Bootstrap
+This will divide into the multiple boxes such as Header, Navigation, Content and Footer 
+It is combination of Containers, Rows and Columns
+
+

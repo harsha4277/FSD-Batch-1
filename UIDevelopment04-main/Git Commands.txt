@@ -1,0 +1,15 @@
+To get repository into local system:
+
+git clone "https://github.com/SaifTrainings/UIDevelopment04.git"
+
+To share our code from local system to repository:
+
+git status
+git add .
+git commit -m "v1"
+git push 
+
+To bring the code to other local system:
+git fetch  
+git pull 
+

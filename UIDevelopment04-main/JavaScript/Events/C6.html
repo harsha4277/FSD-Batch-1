@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <form action="">
+        <label for="">FirstName</label>
+        <input type="text" id="id1" onfocus="f1(this)" onblur="f2(this)"> <br><br>
+        <label for="">LastName</label>
+        <input type="text" id="" onfocus="f1(this)" onblur="f2(this)">
+    </form>
+
+    <script>
+        function f1(element){
+            //document.getElementById("id1").style.borderRightColor= "red"
+            //console.log("onfocus from input field")
+            element.style.borderRightColor = "red"
+            console.log("onfocus from input field")
+        }
+
+        function f2(element){
+            element.style.borderRightColor = "";
+            console.log("onblur from input field")
+        }
+    </script>
+</body>
+</html>

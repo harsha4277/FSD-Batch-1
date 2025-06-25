@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priority of Tags</title>
+    <style>
+        /* p{
+            border-style: solid;
+            border-color: blue;
+            border-width: 2px;
+        } */
+        #id1{
+            border-style: solid;
+            border-color: blue;
+            border-width: 2px;
+        }
+        .c1{
+            border-style: solid;
+            border-color: green;
+            border-width: 2px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <p style="border: 2px solid green;">Para One</p> -->
+    <!-- inline selector have higher priority -->
+
+    <p id="id1" class="c1">Para Two</p>
+    <!-- id is having higher compared to class  -->
+</body>
+</html>
